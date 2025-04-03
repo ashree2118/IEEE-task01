@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #FFD700, #000000);
+    background:  #FFD700;
     margin: 0;
 }
 .container {
@@ -17,7 +17,31 @@ body {
     max-width: 400px;
     color: yellow;
 }
-h2 {
+.home-container {
+    background: black;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: yellow;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    margin-top: 20px;
+    background: yellow;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #FFD700;
+}
+h2, h1 {
     margin-bottom: 20px;
     color: yellow;
 }
@@ -52,7 +76,7 @@ p {
     color: yellow;
 }
 @media (max-width: 480px) {
-    .container {
+    .container, .home-container {
         width: 95%;
         padding: 20px;
     }
